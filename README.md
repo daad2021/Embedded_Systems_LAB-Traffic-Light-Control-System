@@ -1,11 +1,12 @@
-# Traffic-Light-Control-System
+# Traffic-Light-Control-System Using Arduino
 
-# About This Project And How It Works
+## About This Project And How It Works
 This project is to develop a traffic light control system to help control the traffic situation at a crossroad automatically. One traffic light for each direction of the crossroad. Each traffic light consists of three LED’s (Red, Yellow and Green). 
 One traffic light is green from the start and switch interchangeably among the others after a predefined time to allow or stop traffic flow. There is also a pedestrian signal which is controlled by two pushbuttons; one at each side of the road. When one of the pushbuttons is pressed, the system checks if the pedestrian has waited for 5 seconds, then the vehicle traffic lights turn red to stop all vehicle movements and the pedestrian traffic turns green after ‘pedestrianSafeWaitTime’ of 3 seconds has elapsed when all vehicles have stopped. A beeper beeps to signal how much time is left for the pedestrians to cross. The pedestrian traffic turns red when the crossing time elapses, and the vehicle traffic turns green to allow the traffic flow.
 
-# Components Required
+## Components Required
 The components required for this project are as follows;
+
 
 •	Arduino Mega 2560
 
@@ -26,6 +27,7 @@ The components required for this project are as follows;
 •	PushButton Switch 12mm (2 pieces)
 
 •	3V DC Power source
+
 
 1.	Arduino Mega 2560
 
@@ -83,7 +85,7 @@ The components required for this project are as follows;
 
 
 
-# Controller Circuit Diagram
+## Circuit Diagram
 The controller circuit consists of 16 LEDs. Each vehicle signal has 3 LEDs (Red, Yellow and Green). The pedestrian signal also consists of 4 LEDs and 2 pushbuttons. Each LED is connected in series with 220 ohm resistor to limit the current flowing through the LEDs. The current expected to flow through the components are13.6mA (3V, 220ohms).
 
  ![CircuitDiagram](https://user-images.githubusercontent.com/84599965/119196394-60f53a00-ba86-11eb-9b87-b3f52f1547d5.png)
