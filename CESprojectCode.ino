@@ -85,7 +85,7 @@ void loop() {
 
 //Vertical lane signal change function
 void vertSignalTask(){
-  if (pedWaiting == 1&& (millis() - pedButtonPressedTime) > pedWaitTime) {  //  If the button is pressed
+  if (pedWaiting == 1&& (millis() - pedButtonPressedTime) > pedWaitTime) {  //If the button is pressed and the waiting time has elapsed
       pedestrianCross();//  Exit main loop and run pedestrianCross() function
       vertSignalTracker = 1;
       lastPedCrossTime = millis();
