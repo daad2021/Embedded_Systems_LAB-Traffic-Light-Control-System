@@ -87,5 +87,5 @@ The controller circuit consists of 16 LEDs. Each vehicle signal has 3 LEDs (Red,
 ![CircuitDigram2](https://user-images.githubusercontent.com/84599965/119557418-762cda00-bda0-11eb-99bf-2419e9463774.png)
 
 
-## Circuit Diagram
+## Final product
 ![WhatsApp Image 2021-08-05 at 6 37 07 PM](https://user-images.githubusercontent.com/84599965/128398850-f14c164f-f724-41f8-96f9-18d49a26c1bc.jpeg)
