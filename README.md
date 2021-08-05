@@ -65,6 +65,8 @@ The components required for this project are as follows;
 
  ![jumperWire](https://user-images.githubusercontent.com/84599965/119196306-3c995d80-ba86-11eb-8be9-9907255dee50.png)
  
+ 
+ 
 
 
 8.	Piezo buzzer/beeper (1 piece)
@@ -83,3 +85,7 @@ The components required for this project are as follows;
 The controller circuit consists of 16 LEDs. Each vehicle signal has 3 LEDs (Red, Yellow and Green). The pedestrian signal also consists of 4 LEDs and 2 pushbuttons. Each LED is connected in series with 220 ohm resistor to limit the current flowing through the LEDs. The current expected to flow through the components are13.6mA (3V, 220ohms).
 
 ![CircuitDigram2](https://user-images.githubusercontent.com/84599965/119557418-762cda00-bda0-11eb-99bf-2419e9463774.png)
+
+
+## Circuit Diagram
+![WhatsApp Image 2021-08-05 at 6 37 07 PM](https://user-images.githubusercontent.com/84599965/128398850-f14c164f-f724-41f8-96f9-18d49a26c1bc.jpeg)
